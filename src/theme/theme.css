@@ -1,0 +1,1102 @@
+/* :root {
+} */
+
+#menuButton {
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  /* --box-shadow: none; */
+  /* --border-color: black; */
+  /* --border-width: 5px; */
+}
+
+.iosFabMargin {
+  margin-top: 50px;
+  margin-left: 12px;
+}
+
+.androidFabMargin {
+  margin-top: 22px;
+  margin-left: 12px;
+}
+
+.mailButton{
+  width: 36px;
+  height: 36px;
+}
+
+.iosLogo {
+  width: 155px;
+  margin-top: 52px;
+  margin-right: 16px;
+  /* clear: both; */
+  margin-bottom: 6px;
+}
+
+.androidLogo {
+  width: 155px;
+  margin-top: 18px;
+  margin-right: 16px;
+  /* clear: both; */
+  margin-bottom: 6px;
+}
+
+.allContent {
+  --ion-background-color: rgb(247, 247, 247);
+  /* --ion-background-color: rgb(243, 241, 241); */
+}
+
+.cityLabel {
+  --ion-background-color: rgb(247, 247, 247);
+  /* --ion-background-color: rgb(243, 241, 241); */
+}
+
+.firstFont {
+  padding-left: 8px;
+  padding-right: 10px;
+  font-family: "Palanquin Light", sans-serif;
+  font-size: 14.5pt;
+  line-height: 29px;
+  
+}
+
+
+.pFont {
+  font-family: "Palanquin Light", sans-serif;
+  font-weight: 600;
+}
+
+#sideMenu {
+  --width: 60%;
+  --max-width: 250px;
+}
+
+.sideMenuContent {
+  --ion-background-color: rgb(247, 247, 247);
+}
+
+/* .background {
+  --background: url("background.png");
+} */
+
+.sideButton {
+  width: 75%;
+  min-width: 135px;
+  max-width: 150px;
+  height: 45px;
+  margin-top: 4px;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  text-transform: uppercase;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  font-size: 12pt;
+}
+
+.frontImg {
+  border-radius: 5px !important;
+  overflow: hidden;
+  /* width: 80%; */
+  margin-left: 5px;
+  margin-right: 5px;
+  /* box-shadow: 2px 2px 5px rgb(211, 211, 211); */
+}
+
+.signupHeading {
+  font-family: "Teko Medium", sans-serif;
+  font-size: 28pt;
+  margin-top: 32px;
+  margin-left: 9px;
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+}
+
+/* .signupInput {
+  padding: 9px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: 99%;
+  max-width: 600px;
+  font-size: 14pt;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  font-family: 'Palanquin', sans-serif;
+  letter-spacing: .5px;
+  background-color: white;
+  line-height: normal;
+  font-weight: 400;
+  margin-bottom: 10px;
+} */
+
+.iosSignupItem {
+  margin-left: -10px;
+  padding-right: 6px;
+  
+}
+
+.androidSignupItem {
+  --padding-start: 6px;
+}
+
+.androidSignupInput {
+  --placeholder-color: black;
+  --placeholder-font-weight: 600;
+  font-family: "Palanquin Regular", sans-serif;
+  --placeholder-opacity: 0.58;
+  font-size: 14pt;
+  --padding-start: 0px;
+  
+}
+
+.iosSignupInput {
+  --placeholder-color: black;
+  --placeholder-font-weight: 600;
+  font-family: "Palanquin Regular", sans-serif;
+  --placeholder-opacity: 0.58;
+  font-size: 14pt;
+  
+}
+
+.checkboxAgree {
+  --size: 25px;
+}
+
+.checkboxDiv {
+  width: 40px;
+  float: left;
+  height: 100px;
+  margin-left: 4px;
+}
+
+.checkboxLabelDiv {
+  width: 85%;
+  /* margin-left: 30px; */
+  font-style: italic;
+  margin-top: -3px;
+}
+
+.androidModalHeading {
+  font-family: "Teko Medium", sans-serif;
+  font-size: 28pt;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+.iosModalHeading {
+  font-family: "Teko Medium", sans-serif;
+  font-size: 28pt;
+  margin-left: 20px;
+  margin-top: 42px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+.iosModalHoodHeading {
+  font-family: "Teko Medium", sans-serif;
+  font-size: 28pt;
+  margin-left: 16px;
+  margin-top: 30px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+.androidModalHoodHeading {
+  font-family: "Teko Medium", sans-serif;
+  font-size: 28pt;
+  margin-left: 16px;
+  margin-top: 22px;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+.modalClass {
+  --background: rgb(247, 247, 247);
+}
+
+.modalWrapper {
+  /* color: red; */
+  text-align: left;
+  --background: rgb(247, 247, 247);
+  font-family: "Palanquin Light", sans-serif;
+}
+
+.hoodModalWrapper {
+  text-align: left;
+  --background: rgb(247, 247, 247);
+  font-family: "Palanquin Light", sans-serif;
+  
+}
+
+.cityOptions {
+  margin-left: 16px;
+}
+
+.cityRadio {
+  width: 23px;
+  height: 23px;
+  vertical-align: -2px;
+}
+
+.cityLabel {
+  font-size: 14pt;
+  font-family: "Palanquin Light", sans-serif;
+  font-weight: 600;
+  display: block;
+  /* position: relative; */
+  /* margin-left: 40px; */
+  /* background-color: lightblue; */
+  /* width: 90%; */
+  padding-left: 35px;
+  margin-bottom: 8px;
+}
+
+.cityCheckboxDiv {
+  float: left;
+  width: 32px;
+}
+
+
+
+.hoodModalSubHeading {
+  font-size: 18pt;
+  font-family: "Palanquin SemiBold";
+  line-height: 30px;
+}
+
+.footerHeight {
+  height: 100px;
+}
+
+.unfoldArrow {
+  width: 10px;
+}
+
+.arrowUnfolded {
+  transform: rotate(90deg);
+}
+
+.activityCheckbox {
+  width: 26px;
+  height: 26px;
+  vertical-align: -8px;
+}
+
+.activityCheckboxDiv {
+  width: 28px;
+  display: block;
+  float: left;
+}
+
+.activityLabel {
+  font-size: 13pt;
+  font-family: "Palanquin Medium", sans-serif;
+  display: block;
+  padding-left: 28px;
+  margin-left: 10px;
+}
+
+.activityItem {
+  margin-bottom: 4px;
+}
+
+#modalAboutTextArea {
+  width: 95%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgray;
+  margin-left: 7px;
+  height: 50vh;
+  padding: 10px;
+  font-size: 12pt;
+  resize: none;
+  font-family: "Palanquin Regular", sans-serif;
+  background-color: white;
+}
+
+.wordCountLabel {
+  font-size: 11.5pt;
+  float: right;
+  font-family: "Palanquin Regular", sans-serif;
+  margin-right: 50px;
+  margin-top: -28px;
+  font-style: italic;
+}
+
+.uploadPicButton {
+  width: 170px;
+  /* min-width: 135px; */
+  /* max-width: 150px; */
+  height: 45px;
+  margin-top: 4px;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  text-transform: none;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  font-size: 11.5pt;
+}
+
+hr {
+  /* border: 2px solid red !important; */
+  height: 1px !important;
+  width: 60% !important;
+  background: rgb(189, 189, 189) !important;
+  display: block !important;
+  /* font-size: 1em !important; */
+  opacity: 0.75 !important;
+  visibility: visible !important;
+}
+
+.captcha {
+  border-radius: 5px;
+  width: 160px;
+  box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.iosForgotPassword {
+  margin-top: 10px;
+  margin-left: 11px;
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: "Palanquin SemiBold";
+}
+
+.androidForgotPassword {
+  margin-top: 10px;
+  margin-left: 6px;
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: "Palanquin SemiBold";
+}
+
+.profileName {
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+  letter-spacing: 3.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-weight: 500;
+  font-size: 32pt;
+  display: inline-block;
+  margin-left: 12px;
+  margin-bottom: 30px;
+}
+
+.profilePic {
+  border-radius: 15px;
+  max-width: 80%;
+  max-height: 450px;
+  box-shadow: 2px 2px 5px rgb(202, 202, 202);
+  /* margin-top: -23px; */
+  /* margin-bottom: 16px; */
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(36, 36, 36);
+  display: block;
+}
+
+.closeIcon {
+  width: 26px;
+  /* position: relative; */
+  /* margin-top: 0px; */
+  /* cursor: pointer; */
+  z-index: 500;
+  left: 14px;
+  top: 74px;
+  position: absolute;
+}
+
+.profileHeading {
+  font-size: 13pt;
+  font-family: "Palanquin SemiBold";
+  display: inline-block;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.editIcon {
+  width: 22px;
+  margin-left: 1px;
+  display: inline-block;
+  vertical-align: -4px;
+}
+
+.editIconName {
+  width: 22px;
+  margin-left: 1px;
+  display: inline-block;
+  /* vertical-align: -4px; */
+
+}
+
+.userNameHeading{
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+  letter-spacing: 3.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 44pt;
+  margin-left: 2px;
+  margin-bottom: 26px;
+  /* line-height: 65px; */
+  margin-top: 42px;
+  /* display: inline-block; */
+}
+
+.userHeading {
+  font-size: 13pt;
+  font-family: "Palanquin SemiBold";
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 1px;
+}
+
+.sendMessageButton {
+  width: 170px;
+  /* min-width: 135px; */
+  /* max-width: 150px; */
+  height: 45px;
+  margin-top: 4px;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  text-transform: uppercase;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  font-size: 13pt;
+}
+
+.flagButton {
+  width: 90px;
+  /* min-width: 135px; */
+  /* max-width: 150px; */
+  height: 40px;
+  margin-top: 10px;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  text-transform: uppercase;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  font-size: 12pt;
+}
+
+#modalFlagTextArea {
+  width: 95%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgray;
+  margin-left: 7px;
+  height: 40vh;
+  padding: 10px;
+  font-size: 12pt;
+  resize: none;
+  font-family: "Palanquin Regular", sans-serif;
+  background-color: white;
+}
+
+.flagCheckbox {
+  width: 24px;
+  height: 24px;
+  vertical-align: -8px;
+}
+
+.flagCheckboxDiv {
+  width: 32px;
+  float: left;
+  margin-left: 12px;
+}
+
+.flagLabel {
+  font-size: 13pt;
+  font-family: "Palanquin Regular", sans-serif;
+  display: block;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+
+/* ------------------------ */
+
+.hoodCheckbox {
+  width: 26px;
+  height: 26px;
+  vertical-align: -8px;
+}
+
+.hoodCheckboxDiv {
+  width: 32px;
+  /* height: 30px; */
+  /* display: block; */
+  float: left;
+  /* background-color: lightgreen; */
+  /* margin-bottom: 20px; */
+}
+
+.hoodLabel {
+  font-size: 12.5pt;
+  font-family: "Palanquin Regular", sans-serif;
+  /* font-weight: 600; */
+  display: block;
+  /* background-color: lightblue; */
+  margin-left: 36px;
+}
+
+.hoodItem {
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
+.searchHeading {
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+  letter-spacing: 2.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 32pt;
+  /* display: block; */
+  margin-bottom: 24px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.searchButton {
+  height: 37px;
+  width: 74px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  margin-bottom: 6px;
+  margin-left: 12px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 11pt;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  --border-radius: 6px;
+  font-family: "Palanquin SemiBold", sans-serif;
+}
+
+.searchButtonDisabled {
+  height: 37px;
+  width: 74px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  margin-bottom: 6px;
+  margin-left: 12px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 11pt;
+  --border-radius: 5px;
+  font-family: "Palanquin SemiBold", sans-serif;
+}
+
+.searchSelected {
+  font-size: 13pt;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 2px;
+  font-family: "Palanquin Regular", sans-serif;
+}
+
+.searchResult {
+  height: 200px;
+  font-size: 14pt;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  margin-bottom: 10px;
+  max-width: 740px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.searchItemLeft {
+  grid-column: 1 / 2;
+  margin: auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userPic {
+  max-width: 100%;
+  max-height: 190px;
+}
+
+.searchItemRight {
+  grid-column: 2 / 2;
+  text-align: left;
+  padding: 6px 15px 6px 15px;
+  background-color: #ffffff;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.searchResultHeading {
+  text-shadow: 3px 3px 5px rgb(226, 226, 226);
+  letter-spacing: 2.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 22pt;
+  display: block;
+  margin-top: 9px;
+  margin-bottom: -9px;
+  overflow: hidden;
+  height: 42px;
+}
+
+.searchResultAbout {
+  overflow: hidden;
+  height: 147px;
+  font-size: 12pt;
+  line-height: 24px;
+}
+
+.nextBackButton {
+  margin: 0px;
+}
+
+#backToSearch {
+  /* position: fixed; */
+  /* width: 46px; */
+  /* cursor: pointer; */
+  /* z-index: 501; */
+  /* --box-shadow: 2px 2px 5px rgb(211, 211, 211); */
+  /* float: right; */
+  /* bottom: 20px; */
+  /* right: 20px; */
+}
+
+.nowHeading {
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+  letter-spacing: 2.3px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 30pt;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.getStarted {
+  height: 46px;
+  border-radius: 5px;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  width: 150px;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  font-size: 13pt;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.nowSelectButton {
+  height: 37px;
+  --border-radius: 6px;
+  border: 0px;
+  font-family: "Palanquin SemiBold", sans-serif;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  font-size: 11pt;
+  width: 74px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.nowCityLabel {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: "Palanquin SemiBold", sans-serif;
+  font-size: 13.5pt;
+}
+
+.nowCitySelection {
+  /* float: left; */
+  /* width: 200px; */
+  margin-top: 30px;
+  margin-left: 140px;
+  margin-bottom: 26px;
+  /* background-color: lightblue; */
+  /* height: 80px; */
+  font-size: 13.5pt;
+  font-family: "Palanquin Regular", sans-serif;
+  padding-right: 8px;
+}
+
+
+.nowPostButton {
+  height: 37px;
+  --border-radius: 5px;
+  font-family: "Palanquin SemiBold", sans-serif;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  font-size: 11pt;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.postPageButton {
+  height: 37px;
+  --border-radius: 5px;
+  font-family: "Palanquin SemiBold", sans-serif;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  font-size: 11pt;
+  margin-top: 6px;
+  /* margin-bottom: 24px; */
+}
+
+.noShadow {
+  --box-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+
+.postRow {
+  background-color: white;
+  margin-bottom: 6px;
+  max-height: 74px;
+  min-height: 38px;
+  font-size: 13pt;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(226, 226, 226);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  max-width: 800px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  font-family: "Palanquin Regular", sans-serif;
+}
+
+.postSubject {
+  width: 97%;
+  padding: 9px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 6px;
+  margin-top: 12px;
+  font-size: 13.5pt;
+  border-radius: 5px;
+  font-family: "Palanquin Regular", sans-serif;
+  box-shadow: 0px 0px 0px lightgrey;
+  background-color: white;
+  line-height: normal;
+  height: 10vh;
+  max-height: 55px;
+  min-height: 45px;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgray;
+}
+
+#postTextArea {
+  max-width: 2000px;
+  width: 97%;
+  padding: 9px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-shadow: 0px 0px 0px lightgrey;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgray;
+  height: 50vh;
+  font-family: "Palanquin Regular", sans-serif;
+  font-size: 13.5pt;
+  margin: 6px;
+  background-color: white;
+}
+
+::placeholder {
+  color: black;
+  font-family: "Palanquin Regular", sans-serif;
+  opacity: 0.65;
+}
+
+.postHeading {
+  text-shadow: 3px 3px 5px rgb(224, 224, 224);
+  letter-spacing: 1.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 22pt;
+  display: block;
+  line-height: 38px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  line-height: 34px;
+}
+
+.postContent {
+  font-size: 14.5pt;
+  white-space: pre-wrap;
+  font-family: "Palanquin Regular", sans-serif;
+  line-height: 27px;
+}
+
+.postAuthor {
+  font-size: 12pt;
+  font-family: "Palanquin Regular", sans-serif;
+  font-style: italic;
+}
+
+.postDate {
+  font-size: 12pt;
+  margin-bottom: 18px;
+  font-style: italic;
+  font-family: "Palanquin Regular", sans-serif;
+}
+
+.messagesHeading {
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+  letter-spacing: 2.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 32pt;
+  margin-bottom: 24px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.messageRowSmall {
+  width: 100%;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(226, 226, 226);
+  padding: 8px;
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+.messageLabel {
+  font-size: 17pt;
+  font-family: "Palanquin Regular", sans-serif;
+  margin-left: 17px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.chatSend {
+  width: 100%;
+  max-width: 70px;
+  min-width: 60px;
+  /* background-color: var(--main-red); */
+  height: 35px;
+  /* color: white; */
+  /* border-radius: 5px; */
+  /* border: 0px; */
+  /* font-family: 'Palanquin', sans-serif; */
+  /* font-weight: 400; */
+  /* padding: 4px; */
+  /* padding-bottom: 5px; */
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  /* cursor: pointer; */
+  /* -webkit-transition-duration: 0.4s; */
+  /* transition-duration: 0.4s; */
+  --box-shadow: 2px 2px 5px rgb(226, 226, 226);
+  font-size: 10pt;
+  display: inline-block;
+  margin-left: 6px;
+  /* margin-bottom: 13px; */
+  position: relative;
+  bottom: 5px;
+}
+
+.chatFlag {
+  width: 100%;
+  max-width: 70px;
+  min-width: 60px;
+  /* background-color: #ef6c00; */
+  height: 35px;
+  /* color: white; */
+  border-radius: 5px;
+  /* border: 0px; */
+  /* font-family: 'Palanquin', sans-serif; */
+  /* font-weight: 400; */
+  /* padding: 4px; */
+  /* padding-bottom: 5px; */
+  letter-spacing: 1.3px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  /* cursor: pointer; */
+  /* -webkit-transition-duration: 0.4s; */
+  /* transition-duration: 0.4s; */
+  --box-shadow: 2px 2px 5px rgb(226, 226, 226);
+  font-size: 10pt;
+  /* display: inline-block; */
+  margin-left: 6px;
+  
+  position: relative;
+  bottom: 5px;
+}
+
+.messagesWithHeading{
+  text-shadow: 3px 3px 5px rgb(224, 224, 224);
+  letter-spacing: 1.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 22pt;
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-top: 2px;
+  line-height: 34px;
+}
+
+.chatSendContainer {
+  height: 140px;
+  /* max-width: 700px; */
+  /* margin-bottom: 26px; */
+  /* background-color: lightblue; */
+  margin-bottom: 24px;
+}
+
+.chatTextContainer {
+  display: inline-block;
+  width: 75%;
+  /* background-color: salmon; */
+  height: 100%;
+}
+
+.chatButtonContainer {
+  display: inline-block;
+  width: 25%;
+}
+
+.chatTextArea {
+  margin: 0px;
+  margin-top: 0px;
+  height: 100%;
+  resize: horizontal;
+  line-height: 25px;
+  /* margin-left: -10px; */
+  width: 97%;
+  padding: 9px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 14pt;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  letter-spacing: .5px;
+  box-shadow: 2px 2px 5px rgb(226, 226, 226);
+  background-color: white;
+  line-height: normal;
+  font-family: "Palanquin Regular", sans-serif;
+}
+
+
+.chatEntry {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(201, 201, 201);
+  padding: 11px;
+  padding-top: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 13.5pt;
+  letter-spacing: .4px;
+  box-shadow: 2px 2px 5px rgb(226, 226, 226);
+  line-height: normal;
+  margin-top: 14px;
+  width: 86%;
+  max-width: 700px;
+  line-height: 25px;
+  white-space: pre-wrap;
+  font-family: "Palanquin Regular", sans-serif;
+}
+
+.yourChat {
+  background-color: #f1f8ff;
+}
+
+.theirChat {
+  background-color: #fff4f4;
+  margin-left: 25px;
+}
+
+.dateSent {
+  color: rgb(146, 146, 146);
+  font-size: 9.5pt;
+  margin-top: -4px;
+  margin-bottom: -2px;
+  font-family: "Palanquin SemiBold";
+}
+
+.accountHeading {
+  text-shadow: 3px 3px 5px rgb(219, 219, 219);
+  letter-spacing: 2.5px;
+  font-family: "Teko Medium", sans-serif;
+  font-size: 32pt;
+  margin-bottom: 24px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.accountButton {
+  height: 40px;
+  --border-radius: 8px;
+  width: 220px;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-transform: uppercase;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+  font-size: 11.5pt;
+}
+
+.passReset {
+  height: 40px;
+  --border-radius: 8px;
+  width: 180px;
+  font-family: "Palanquin Regular", sans-serif;
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
+  --box-shadow: 2px 2px 5px rgb(211, 211, 211);
+}
+
+.submitCancel {
+  font-family: "Palanquin Regular", sans-serif;
+}
+
+.changeEmailInput {
+  font-family: "Palanquin SemiBold";
+  width: 300px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: darkgray;
+  margin-top: 16px;
+  /* height: 50vh; */
+  padding: 10px;
+  padding-left: 14px;
+  font-size: 14pt;
+  resize: none;
+  /* font-family: "Palanquin Regular", sans-serif; */
+  background-color: white;
+  box-shadow: 2px 2px 5px rgb(226, 226, 226);
+}

@@ -1,0 +1,38 @@
+first name on focus scroll when tapped?
+more space below done button on modal
+DONE larger checkboxes and labels
+
+DONE?  text area needs to be white and taller
+
+DONE forgot password
+***check what happens if you sign up when already loggedin
+
+*** check what happens if you change password on one device and then try to use app on device that you're previously logged into
+
+
+DONE profile - check to make sure max 20 hoods are selected
+
+check if photo quality of uploaded app images is too degraded
+
+Flagged users should not be able to see the profile of those who flagged them (app and website)
+
+DONE add "see this user's now post"
+
+MAKE FAVORITES PAGE!!
+
+ADD:
+var dayAsPercent = day / 7;
+            var startingPointInResultsArray = Math.floor(
+              listOfPosts.length * dayAsPercent
+            );
+TO LATE NIGHT QUERY ON NOW PAGE!
+
+
+
+DONE When changing email address, make user type new email address twice!
+
+DONE resend verification email not working just after changing email address
+
+
+DONE add onauthchange to app?
+

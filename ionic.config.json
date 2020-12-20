@@ -1,0 +1,7 @@
+{
+  "name": "Cool Neighbors",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
