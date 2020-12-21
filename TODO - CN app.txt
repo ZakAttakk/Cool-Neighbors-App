@@ -36,3 +36,36 @@ DONE resend verification email not working just after changing email address
 
 DONE add onauthchange to app?
 
+Make all cloud functions return promise? 
+
+ANDROID keystore:
+in root app directory
+*99
+
+On Android: Add improved "last message" code to messageRow and Correspondence components
+
+Add back button on correspondence page (back to messages)
+
+Android:
+add catch error to clear token function
+add clear notification token to setLoggedIn function
+add set loggedin to delete account function
+
+Android:
+add larger top margin to top cannotSend modal (all three modals)
+
+put back to search fab on user page outside of grid and remove IonRouterLink from around the fab
+
+---------------
+
+DONE move arrow on post page
+DONE add "see this user's now post"
+DONEviewing profile from post page shows arrow - and arrow bring user to search page (should bring back to post)
+
+back button on post page does bring user back to user page if they come to post page from user page
+
+Apple Certificate:
+in certificate folder
+
+
+
