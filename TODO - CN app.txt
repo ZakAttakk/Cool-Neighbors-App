@@ -47,9 +47,9 @@ On Android: Add improved "last message" code to messageRow and Correspondence co
 Add back button on correspondence page (back to messages)
 
 Android:
-add catch error to clear token function
-add clear notification token to setLoggedIn function
-add set loggedin to delete account function
+DONE add catch error to clear token function
+DONE add clear notification token to setLoggedIn function
+DONE add set loggedin to delete account function
 
 Android:
 add larger top margin to top cannotSend modal (all three modals)
@@ -73,7 +73,7 @@ in certificate folder
 TODO:
 
 Make sure sounds work on android
-Update iOS and andoird
+Update iOS and android
 Post problemApp
 
 
