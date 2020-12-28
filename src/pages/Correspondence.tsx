@@ -303,7 +303,7 @@ class Correspondence extends Component<any, any> {
             if (this.otherUserData.notificationTokens !== undefined && this.otherUserData.notificationTokens.length !== 0) {
               console.log("SENDING PUSH!")
               this.props.sendPush({
-                name: this.otherUserData.firstName,
+                name: this.props.appState.userData.firstName,
                 tokens: this.otherUserData.notificationTokens,
                 message: message
               });

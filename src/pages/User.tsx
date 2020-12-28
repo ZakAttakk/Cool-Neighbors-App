@@ -433,7 +433,7 @@ class User extends Component<
       ) {
         console.log("SENDING PUSH!");
         this.props.sendPush({
-          name: this.state.otherUserData.firstName,
+          name: this.props.appState.userData.firstName,
           tokens: this.state.otherUserData.notificationTokens,
           message: message,
         });
