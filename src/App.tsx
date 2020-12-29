@@ -78,21 +78,24 @@ class App extends Component<any, any> {
       signupPending: false,
       notificationToken: "",
       fromSearch: false,
-
+      fixBug: "0px"
     };
-
-    // const menuRef = React.createRef();
-
-    // notifications: [
-    //   {
-    //     id: "id",
-    //     title: "Test Push",
-    //     body: "This is my first push notification",
-    //   },
-    // ],
 
   }
 
+  ionMenuScrollBug = () => {
+    console.log("open")
+    this.setState({
+      fixBug: "1px"
+    })
+  }
+
+  ionMenuScrollBugFix = () => {
+    console.log("close")
+    this.setState({
+      fixBug: "0px"
+    })
+  }
 
   // sendMessageNotification = functions.httpsCallable("sendMessageNotification");
   improvedSendMessageNotification = functions.httpsCallable(
@@ -712,9 +715,11 @@ class App extends Component<any, any> {
             loggedIn={this.state.loggedIn}
             menuDisabled={this.state.menuDisabled}
             unreadMessages={this.state.unreadMessages}
+            ionMenuScrollBug={this.ionMenuScrollBug}
+            ionMenuScrollBugFix={this.ionMenuScrollBugFix}
           />
 
-          <IonRouterOutlet id="main">
+          <IonRouterOutlet style={{top: this.state.fixBug}} id="main">
             <IonContent id="allContent" className="allContent">
               <Logo />
               {/* <IonGrid> */}

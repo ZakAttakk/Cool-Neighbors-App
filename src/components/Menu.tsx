@@ -17,7 +17,9 @@ const Menu: React.FC<{
   menuDisabled: boolean;
   loggedIn: boolean;
   logOut: Function;
-  unreadMessages: boolean
+  unreadMessages: boolean;
+  ionMenuScrollBug: Function;
+  ionMenuScrollBugFix: Function;
 }> = (props) => {
   const sideMenuRef = useRef<HTMLIonMenuElement>(null);
 
@@ -187,6 +189,8 @@ const Menu: React.FC<{
         ref={sideMenuRef}
         contentId="main"
         max-edge-start="0"
+        onIonDidClose={() => props.ionMenuScrollBugFix()}
+        onIonDidOpen={() => props.ionMenuScrollBug()}
       >
         <IonContent className="ion-text-center sideMenuContent">
           <br />
